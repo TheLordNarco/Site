@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C24 TECH A SUA LOJA ONLINE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <img src="C24.jpg" alt="Logo 24 TECH" class="logo">
+        <h1>Minha Loja</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#extrato">Extrato</a></li>
+            <li><a href="#cadastro">Cadastro</a></li>
+            <li><a href="#login">Login</a></li>
+            <li><a href="#carrinho">Carrinho</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Bem-vindo à Loja</h2>
+        <p>Confira nossos produtos e faça seu pedido online.</p>
+    </section>
+
+    <section id="produtos">
+        <h2>Produtos</h2>
+        <div class="produto">
+            <p>Produto 1</p>
+            <button class="comprar-btn" data-produto="Produto 1">Comprar</button>
+        </div>
+        <div class="produto">
+            <p>Produto 2</p>
+            <button class="comprar-btn" data-produto="Produto 2">Comprar</button>
+        </div>
+    </section>
+
+    <section id="extrato">
+        <h2>Extrato</h2>
+        <div id="extrato-lista">Seu extrato de compras aparecerá aqui.</div>
+    </section>
+
+    <section id="cadastro">
+        <h2>Cadastro</h2>
+        <p>Preencha seus dados para se cadastrar.</p>
+        <input type="text" id="nome" placeholder="Nome">
+        <input type="email" id="email" placeholder="Email">
+        <button id="cadastrar-btn">Cadastrar</button>
+    </section>
+
+    <section id="login">
+        <h2>Login</h2>
+        <p>Entre com seus dados para acessar sua conta.</p>
+        <input type="email" id="login-email" placeholder="Email">
+        <input type="password" id="login-senha" placeholder="Senha">
+        <button id="login-btn">Login</button>
+    </section>
+
+    <section id="carrinho">
+        <h2>Carrinho de Compras</h2>
+        <div id="carrinho-lista">Seu carrinho está vazio.</div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
